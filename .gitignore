@@ -1,0 +1,9 @@
+venv/
+.env
+__pycache__/
+*.pyc
+database/*.db
+vectorstore/index/*
+!vectorstore/index/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
